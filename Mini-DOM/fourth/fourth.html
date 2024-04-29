@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques-4</title>
+    <style>
+        .box{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outputDiv">
+
+    </div>
+    <div class="box">
+        <button onclick="johann()" id="johann">
+            Johann
+        </button>
+        <button onclick="manuel()" id="manuel">
+            Manuel
+        </button>
+        <button onclick="kenneth()" id="kenneth">
+            Kenneth
+        </button>
+    </div>
+</body>
+<script>
+    function johann(){
+            document.getElementById("outputDiv").innerHTML="<h1>Johann</h1>"
+    }
+    function manuel(){
+            document.getElementById("outputDiv").innerHTML="<h1>Manuel</h1>"
+    }
+    function kenneth(){
+            document.getElementById("outputDiv").innerHTML="<h1>Kenneth</h1>"
+    }
+</script>
+</html>
